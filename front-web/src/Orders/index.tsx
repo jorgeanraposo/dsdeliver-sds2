@@ -1,7 +1,7 @@
-import { SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS } from 'constants';
+//import { SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS } from 'constants';
 import { useEffect, useState } from 'react';
 import { toast} from 'react-toastify';
-import { isTemplateTail } from 'typescript';
+//import { isTemplateTail } from 'typescript';
 import { fecthProducts, saveOrder } from '../api';
 import Footer from '../Footer';
 import { checkIsSelected } from './helpers';
